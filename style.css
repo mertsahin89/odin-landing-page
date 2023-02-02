@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: #1f2937;
+    padding: 0px 15%;
+    
+}
+
+nav>li{
+    list-style: none;
+   margin: 5px 0px;
+   
+}
+
+li>a{
+    font: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font: 36px bold;
+    margin-right: auto;
+}
+
+.hero-section{
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 50px;
+}
+
+.hero-section>img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.hero-text>p{
+    margin: 10px 0 10px 0;
+    font: 24px;
+}
+
+.hero-text>h1{
+    font: 46px bolder;
+    margin: 10px 0 10px 0;
+}
+
+.cta-button {
+    margin: 10px 0 10px 0;
+	background-color:#3881f6;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.cta-button:hover {
+	background-color:#0d68fa;
+}
+
+/* Info Section Below */
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section>h1{
+    font: 36px bold;
+    margin: 40px 0px;
+}
+
+.team-wrapper{
+    display: flex;
+    gap: 50px;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.team-card>img{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #0d68fa ;
+}
+.team-card>p{
+    font-size: 14px;
+}
+
+.quote{
+    margin-top: 150px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote>em{
+    font-size: 24px;
+}
+
+.quote>p{
+    align-self: flex-end;
+}
+
+.cta{
+    margin: 100px 0px;
+    color: white;
+    background-color: #0d68fa;
+    display: flex;
+    gap: 50px;
+    width: 50vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-text>h3{
+    margin: 10px 0px;
+}
+
+.cta>.cta-button{
+    border: solid 1px white;
+}
+
+footer{
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
