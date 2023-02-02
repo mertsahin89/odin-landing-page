@@ -1,0 +1,1 @@
+# Landing page assignment from The Odin Project with a little mythological twist. Thanks to Jan "Bubaben" Bintakies for beautiful illustrations. Don't forget to visit https://www.deviantart.com/bubaben for more of Bubaben's work.
