@@ -107,6 +107,7 @@ li>a{
     border: 5px solid #0d68fa ;
 }
 .team-card>p{
+    margin-top: 10px;
     font-size: 14px;
 }
 
